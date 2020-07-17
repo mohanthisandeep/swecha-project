@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <title>SENSE ORGANS</title>
+<link rel="stylesheet" href="prostylesheet.css">
+</head>
+<div>
+<body>
+<div class="container-fulid">
+<div class="jumbotron text-center">
+
+  <h1>
+<img src="senselof.gif" class="pull-center" width="400px" height="90px"/>
+SENSE ORGANS
+<img src="happy2.png" class="pull-center" width="400px" height="90px"/></h1>
+</div></div>
+<div>
+<a href="#ey1">EYE</a>
+<a href="#ear1">EAR</a>
+<a href="#nos1">NOSE</a>
+<a href="#skin1">SKIN</a>
+<a href="#tongue1">TONGUE</a>
+<button onclick="qif()">Quizz&InterestingFacts</button>
+<script>
+function qif() {
+  window.open("ani.html");
+}
+</script>
+<p id="intro">
+<b>Introduction</b>
+<br>
+Sense organs are specialized organs that help to perceive the world around us. They are an integral part of our lives and it is the only way that enables us to perceive the environment.
+Sense organs provide the required data for interpretation through various organs and a network of nerves in response to a special physical phenomenon. These senses govern our association.
+</p>
+<div>
+<p><b>Sensory Receptors:</b>Sensory receptors reacts based on the type of stimuli.<p></div>
+<b>Types of Sensory Receptors:</b>
+<br><div>
+<table style="float:left" border="2px">
+<tr>
+<th>S.No</th>
+<th>Sense Receptors</th>
+<th>Functionality</th>
+</tr>
+<tr>
+<td>1</td>
+<td> Mechanoreceptors</td>
+<td> Pressure receptors, stretch receptors, and specialized mechanoreceptors involved
+in movement and balance.</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Thermoreceptors </td>
+<td>Skin and viscera, respond to both external and internal temperature.</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Pain receptors</td>
+<td>Stimulated by lack of O2, chemicals released from damaged cells and inflammatory
+cells.</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Chemoreceptors</td>
+<td>Detect changes in levels of O2, CO2, and H+ ions (pH) as well as chemicals that
+stimulate taste and smell receptors.</td>
+<tr>
+<td>5</td>
+<td>Photoreceptors</td>
+<td>Stimulated by light</td>
+</table>
+<div>
+<img id="ff" src="sense11.gif" align="center" width="470px" height="180px"/>
+</div>
+<div id="ey1" class="boxed">
+<h2 align="center">Eye structure and its Parts</h2>
+<img src="eyef.jpg" align="left"/><p><b>Eyes-Sight or Ophthalmoception</b>
+These are the visual sensory organ in our body. These are sensitive to light images. The eyes vary in colour depending upon the amount of melanin present in our body. It helps in the sense of sight by detecting and focussing on the light images.</p>
+<p><b>Rods:</b>These sensors function in low light and are found at the edges of the retina. They also aid in peripheral vision.
+<br><b>Cones:</b>hese type of retinal cells work best in bright light, detecting fine details and colour.</p>
+<img id="eye" src="eyegif.gif" align="right"  width="470px" height="180px"/>
+<button id="b1" class="btn btn-info" onclick="internal()">Interal Structure</button><br>
+<button id="b2" class="btn btn-info" onclick="external()">External Structure</button>
+<br>
+<br>
+</div>
+<p id="information"></p>
+<script>
+function internal()
+{
+document.getElementById('eye').src="eyestruct4.png";
+document.getElementById('information').innerHTML="<b>Internal Eye contains Following Parts</b><br><b>1.Lens</b><br><b>2.Retina</b><br><b>3.Optic nerve</b><br><b>4.Aqueous Humour</b><br><b>5.Viterous Humour</b>";
+}
+function external()
+{
+document.getElementById('eye').src="internaleye.gif";
+document.getElementById('information').innerHTML="<b>External Eye contains Following Parts</b><br><br><b>1.Sclera</b><br><b>2.Conjuctiva</b><br><b>3.Cornea</b><br><b>4.Iris</b><br><b>5.Pupil</b>";
+}
+</script>
+<div id="ear1" class="boxed">
+<h2 align="center">Ear structure and its Parts</h2>
+<img id="le" src="earf.jpg" align="left"/><p><b>Ears – Hearing or Audioception</b>
+Ears are the auditory sense organs of our body. They help us to perceive sounds. Our auditory system detects vibrations in the air and this is how we hear sounds.</p>
+<img id="ear" src="eardef.gif" align="right"  width="470px" height="180px"/>
+<button id="b3" class="btn btn-info" onclick="outer()">Outer Ear</button><br>
+<button class="btn btn-info" align="center" onclick="inner()">Inner Ear</button>
+<br></br><button class="btn btn-info"  align="center" onclick="middle()">Middle Ear</button>
+<br>
+<br>
+<br>
+</div>
+<p id="information1"></p>
+<script>
+function outer()
+{
+document.getElementById('ear').src="earouter1.gif";
+document.getElementById('information1').innerHTML=" The outer ear, external ear, or auris externa is the external part of the ear, which consists of the auricle (also pinna) and the ear canal .It gathers sound energy and focuses it on the eardrum.<br><b>1.auricle</b><br><b>2.auditory canal</b><br><b>3.eardrum outer layer</b>";
+}
+function inner()
+{
+document.getElementById('ear').src="innerear.png";
+document.getElementById('information1').innerHTML=" The Inner ear, also called labyrinth of the ear, part of the ear that contains organs of the senses of hearing and equilibrium.<br><b>1.oval</b><br><b>2.semicircular ducts</b><br><b>3.cochlea</b><br><b>4.auditory tube</b>";
+}
+function middle()
+{
+document.getElementById('ear').src="middleear.jpg";
+document.getElementById('information1').innerHTML=" The middle ear, also called labyrinth of the ear, part of the ear that contains organs of the senses of hearing and equilibrium.<br><b>1.ear drum</b><br><b>2.tympanic cavity</b><br><b>3.ossicles</b>";
+}
+</script>
+<div id="nos1" class="boxed">
+<h2 align="center">Nose structure and its Parts</h2>
+<br>
+<img id="lf" src="nosef.jpg" align="left" width="300px" height="180px"/>
+<p><b>Nose – Smell or Olfalcoception</b>The nose is an olfactory organ. Our olfactory system helps us to perceive different smells. This sense of organ also aids our sense of taste. The sense of smell is also known as olfaction.</p>
+<img id="nose" src="nosegf.gif" align="right"  width="470px" height="180px"/>
+<button id="b4" class="btn btn-info" align="center" onclick="structure()">Parts</button><br>
+<br></br>
+<br></br>
+</div>
+<p id="information2"></p>
+<script>
+function structure()
+{
+document.getElementById('nose').src="nosef21.jpg";
+document.getElementById('information2').innerHTML="Nose contains Following Parts<br><b>1.External meatus</b><br><b>2.External nostrils</b><br><b>3.Septum</b><br><b>4.Nasal Passage</b><br><b>5.Sinuses</b>";
+}
+</script>
+<div id="skin1" class="boxed">
+<h2 align="center">Skin structure and its Parts</h2>
+<br>
+<img id="ls" src="skinf.gif" align="left" width="400px" height="280px"/>
+<p><b>Skin – Touch or Tactioception</b>Skin is the largest organ of our body. The sense of touch is also referred to as tactioception.kin receptors generate an impulse, and when activated, is carried to the spinal cord and then to the brain.</p>
+<img id="skin" src="skinf.jpg" align="right"  width="570px" height="280px"/>
+<button id="b5" class="btn btn-info" onclick="skinstructure()">Parts</button>
+<br></br><button id="b6" class="btn btn-info" onclick="layers()">Layers of Epidermis</button><br><br>
+</div>
+<p id="information3"></p>
+<script>
+function skinstructure()
+{
+document.getElementById('skin').src="skingf1.gif";
+document.getElementById('information3').innerHTML="Skin contains Following Parts<br><b>1.Epidermis</b><br><b>2.Dermis</b><br><b>3.HypoDermis</b>";
+}
+function layers()
+{
+document.getElementById('skin').src="layers.gif";
+document.getElementById('information3').innerHTML="Epidermis contains Following layers:<b>1.Stratum corneum</b><br><b>2.Granular cell layer</b><br><b>3.Spinous cell layer</b><br><b>4.Basal Cell layer</b>";
+}
+</script>
+<div id="tongue1" class="boxed">
+<h2 align="center">Tongue structure and its Parts</h2>
+<br></br>
+<img id="lt" src="tonguef.jpg" align="left" width="400px" height="280px"/>
+<p>The tongue is a muscular organ in the mouth of most vertebrates that manipulates food for mastication and is used in the act of swallowing.Like fingerprints, your tongue has a unique print pattern and it’s home to 5000 taste buds!</p>
+<img id="tongue" src="tastebuds.jpg" align="right"  width="570px" height="280px"/>
+<button id="b6" class="btn btn-info" onclick="tstructure()">Structure</button><br></br>
+<button id="b7" class="btn btn-info" onclick="tparts()">Parts</button><br></br>
+<button id="b8" class="btn btn-info" onclick="taste()">Taste Buds</button>
+<br></br>
+<br></br>
+</div>
+<p id="information4"></p>
+<script>
+function tstructure()
+{
+document.getElementById('tongue').src="tonguef1.jpg";
+document.getElementById('information4').innerHTML="The mammalian tongue consists of a mass of interwoven, striated muscles interspaced with glands and fat and covered with mucous membrane. In humans the front tips and margins of the tongue usually touch the teeth, aiding in swallowing and speech. The top surface, or dorsum, contains numerous projections of the mucous membrane called papillae. They contain taste buds, which are sensitive to chemical constituents of food, and serous glands that secrete some of the fluid in saliva, a substance that moistens the oral cavity and helps lubricate food particles. The base, or upper rear portion, of the tongue has no papillae, but aggregated lymphatic tissue (lingual tonsils) and serous and mucus-secreting glands are present. The inferior, or under, surface leads from the tip of the tongue to the floor of the mouth; its mucous membrane is smooth, devoid of papillae, and purple in colour from the many blood vessels present. The root, the remainder of the underside that lies on the mouth’s floor, contains bundles of nerves, arteries, and muscles that branch to the other tongue regions.";
+}
+function tparts()
+{
+document.getElementById('tongue').src="parttongue.jpg";
+document.getElementById('information4').innerHTML="The following are some of the parts of the tongue:<br><b>1.Epiglottis</b><br><b>2.palatine tonsil</b><br><b>3.foramen cecum</b><br><b>4.sulcam terminalis</b><br><b>5.median lingual sulcam</b><br><b>6.fungiform lingual papillae</b><br><b>7.apex</b><br><b>8.filiform lingual papillae</b><br><b>9.circum lingual papillae</b><br><b>10.lingual tonsil</b>";
+}
+function taste()
+{
+document.getElementById('tongue').src="tastebud.jpg";
+document.getElementById('information4').innerHTML="<b>1.Sweet</b><br><b>2.Salty</b><br><b>3.Sour</b><br><b>4.Bitter</b>";
+}
+</script>
+
+
+ </body>
+</html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="tabstylesheet.css">
+</head>
+<script>
+function Home() {
+  window.open("trailproject.html");
+}
+</script>
+<body>
+<div>
+<h1> <img  src="interestfacts.jpg" class="img-circle" alt="interestingfacts" width="200px" height="100px"/>
+<b>Welcome,Interesting Facts about Sense Organs<b>
+<img src="organ5.jpg" class="img-rounded" width="200px" height="100px"/></h1>
+</div>
+<div class="tab">
+<button class="tablinks"  onclick="Home()">HOME</button>
+  <button class="tablinks" onclick="openCity(event, 'Eye')">Eye</button>
+  <button class="tablinks" onclick="openCity(event, 'Ear')">Ear</button>
+  <button class="tablinks" onclick="openCity(event, 'Nose')">Nose</button>
+ <button class="tablinks" onclick="openCity(event, 'Tongue')">Tongue</button>
+<button class="tablinks" onclick="openCity(event, 'Skin')">Skin</button>
+</div>
+
+<!-- Tab content -->
+<div id="Eye" class="tabcontent" style=display:block>
+  <h3 class="text-primary"><b>Eye</b>
+<img src="eyeinf.gif" class="pull-right img-responsive" width="600px" height="800px"/>
+</h3>
+  <p id="in1" >1.Eyes are made up of over 2 million working parts.
+<br>2.For a day our eye blinks 25000 times and  an average of 4,200,000 times a year.
+<br>3.80% of our memories are determined by what we see.
+<br>4.The eye is only part the which functions with 100% ability at any moment. </p>
+</div>
+
+<div id="Ear" class="tabcontent">
+  <h3 class="text-primary"><b>Ear</b>
+<img src="earinf.gif" class="pull-right img-responsive" width="600px" height="800px"/></h3>
+  <p id="in1">1.Your outer ear never stops growing throughout your lifetime.
+<br>2.The ear contains more than 20,000 hair cells.
+<br>3.Of the 206 bones in the human body, the six smallest are in your ears: three in the right and three in the left. Together, each three are about the size of a pencil eraser.
+<br>4.The hardest bone: the temporal bone, which protects the inner ear, is the hardest in the human body.
+</p>
+</div>
+
+<div id="Nose" class="tabcontent">
+  <h3 class="text-primary"><b>Nose</b>
+<img src="noseanimation.gif" class="pull-right img-responsive" width="600px" height="800px"/></h3>
+  <p id="in1">1.We have over 400 olfactory receptors, making your sense of smell one of the strongest senses.
+<br>2.A single sneeze can release 40,000 droplets from our nostrils and mouth. These droplets can travel over five feet!
+<br>3.Our nose shapes the sound of our voice.
+<br>4.Our nose regulates the temperature of the air we breathe.
+</p>
+</div>
+<div id="Tongue" class="tabcontent">
+  <h3 class="text-primary"><b>Tongue</b>
+<img src="tongueanimation.gif" class="pull-right img-responsive" width="600px" height="800px"/></h3>
+  <p id="in1">1.The average adult has between 2,000 to 4,000 taste buds in total.
+<br>2.Your tongue is strong and has 8 muscles.
+Four muscles allow our tongue to change shape and the other four allow your tongue to change position. These muscles move your tongue in different directions and help you speak.
+<br>3.Tongue is not the only place where taste buds live. Taste buds can also be found on the inside of our cheeks, on lips, on the roof of our mouth and even under the tongue.
+</p>
+</div>
+<div id="Skin" class="tabcontent">
+  <h3 class="text-primary"><b>Skin</b>
+<img src="skinanimation.gif" class="pull-right img-responsive" width="300px" height="800px"/></h3>
+  <p id="in1">1.The average person has about 300 million skin cells.
+<br>2.Skin accounts for about 15% of your body weight.
+<br>3.The color of human skin depends on the amount of pigment melanin that the body produces. Small amounts of melanin result in light skin while large amounts result in dark skin.
+</p>
+</div>
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+
+tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+</body>
+</html>
